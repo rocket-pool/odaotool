@@ -4,18 +4,17 @@ go 1.19
 
 require (
 	github.com/ethereum/go-ethereum v1.10.26
+	github.com/fatih/color v1.14.1
 	github.com/rocket-pool/rocketpool-go v1.10.1-0.20230228020137-d5a680907dff
-	github.com/rocket-pool/smartnode v1.9.0-a1.0.20230313034936-010e9e7c1362
-	github.com/urfave/cli v1.22.12
+	github.com/rocket-pool/smartnode v1.9.0-rc1
 	github.com/urfave/cli/v2 v2.23.0
+	golang.org/x/sync v0.1.0
 )
 
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20230124172434-306776ec8161 // indirect
 	github.com/Microsoft/go-winio v0.5.0 // indirect
-	github.com/a8m/envsubst v1.4.2 // indirect
 	github.com/alessio/shellescape v1.4.1 // indirect
-	github.com/blang/semver/v4 v4.0.0 // indirect
 	github.com/btcsuite/btcd v0.23.4 // indirect
 	github.com/btcsuite/btcd/btcec/v2 v2.3.2 // indirect
 	github.com/btcsuite/btcd/btcutil v1.1.3 // indirect
@@ -27,9 +26,7 @@ require (
 	github.com/docker/docker v23.0.1+incompatible // indirect
 	github.com/docker/go-connections v0.4.0 // indirect
 	github.com/docker/go-units v0.5.0 // indirect
-	github.com/fatih/color v1.14.1 // indirect
 	github.com/ferranbt/fastssz v0.1.3 // indirect
-	github.com/glendc/go-external-ip v0.1.0 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/go-stack/stack v1.8.1 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
@@ -65,6 +62,7 @@ require (
 	github.com/tklauser/go-sysconf v0.3.11 // indirect
 	github.com/tklauser/numcpus v0.6.0 // indirect
 	github.com/tyler-smith/go-bip39 v1.1.0 // indirect
+	github.com/urfave/cli v1.22.12 // indirect
 	github.com/wealdtech/go-bytesutil v1.2.0 // indirect
 	github.com/wealdtech/go-eth2-types/v2 v2.8.1-0.20230131115251-b93cf60cee26 // indirect
 	github.com/wealdtech/go-eth2-util v1.8.0 // indirect
@@ -74,9 +72,7 @@ require (
 	github.com/yusufpapurcu/wmi v1.2.2 // indirect
 	golang.org/x/crypto v0.6.0 // indirect
 	golang.org/x/net v0.7.0 // indirect
-	golang.org/x/sync v0.1.0 // indirect
 	golang.org/x/sys v0.5.0 // indirect
-	golang.org/x/term v0.5.0 // indirect
 	golang.org/x/text v0.7.0 // indirect
 	gonum.org/v1/gonum v0.12.0 // indirect
 	gopkg.in/natefinch/npipe.v2 v2.0.0-20160621034901-c1b8fa8bdcce // indirect
@@ -85,6 +81,6 @@ require (
 
 replace github.com/wealdtech/go-merkletree v1.0.1-0.20190605192610-2bb163c2ea2a => github.com/rocket-pool/go-merkletree v1.0.1-0.20220406020931-c262d9b976dd
 
-replace github.com/rocket-pool/smartnode => ../smartnode
+// replace github.com/rocket-pool/smartnode => ../smartnode
 
 // replace github.com/rocket-pool/rocketpool-go => ../rocketpool-go

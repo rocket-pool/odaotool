@@ -5,6 +5,7 @@
 *.so
 *.dylib
 odaotool
+Releases/
 
 # Test binary, built with `go test -c`
 *.test
